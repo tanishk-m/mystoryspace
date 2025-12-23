@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Link } from "react-router-dom";
+import authorImage from "../t.jpeg";
 
 const About = () => {
   return (
@@ -16,7 +17,7 @@ const About = () => {
                   About
                 </span>
                 <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-semibold text-foreground mb-8 leading-tight">
-                  Hello, I'm the Writer Behind The Journal
+                  Hello, I'm Tanishk Meena
                 </h1>
               </div>
 
@@ -24,8 +25,8 @@ const About = () => {
                 <div className="md:col-span-1 animate-fade-up" style={{ animationDelay: '0.1s' }}>
                   <div className="aspect-[3/4] rounded-lg overflow-hidden shadow-elevated">
                     <img 
-                      src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=600&auto=format&fit=crop&q=60"
-                      alt="Author portrait"
+                      src={authorImage}
+                      alt="Tanishk Meena"
                       className="w-full h-full object-cover"
                     />
                   </div>
